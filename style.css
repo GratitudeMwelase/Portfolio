@@ -1,0 +1,199 @@
+.index{
+    background-image: url("Wimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+.abt{
+    background-color: nude;
+}
+.text{
+  text-align: center;
+ padding-top: 44%;
+ font-style: italic;
+ text-shadow: 0cqb;
+}
+.topnav{
+font-size: 30px;
+}
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -80px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+  }
+  
+  #mySidenav a:hover {
+    left: 0; 
+  }
+  
+  
+  #Home {
+    top: 20px;
+    background-color: rgb(233, 139, 154);
+ 
+  }
+  
+  #About {
+    top: 80px;
+    background-color: #555; 
+  }
+  
+  #projects {
+    top: 140px;
+    background-color: rgb(233, 139, 154); 
+  }
+  
+  #contact {
+    top: 200px;
+    background-color: #555 
+  }
+
+  .icon{
+
+    padding-left: 50px ;
+  }
+  .icon1{
+
+    padding-left: 70px ;
+ 
+  }
+  .abt{
+    background-image:url("imgbc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+  h2{
+    padding-top: 100px;
+    text-align: center;
+    font-style: oblique;
+   
+}
+p{
+    padding-top: 80x;
+    text-align: center;
+    padding-right: 100px;
+    color: black;
+}
+h3{
+    padding-bottom: 100px;
+    text-align: center;
+    
+}
+.indexC{
+    background-image: url("ContactUs-2024.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f0f8ff, #ffffff);
+    color: black;
+  }
+  
+  /* Contact Container */
+  .contact-container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+   background: none; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color:black;
+  }
+  
+  p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    color: black;
+  }
+  
+  /* Form Styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background: rgba(255, 255, 255, 0.5); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e8e1e1;
+    border-radius: 4px;
+    font-size: 1em;
+    background: rgba(255, 255, 255, 0.7); /* Slightly transparent input fields */
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  /* Button Styling */
+  button {
+    padding: 12px;
+    border: none;
+    background-color: rgb(233, 139, 154);
+    color: white;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #333;
+  }
+  
+  /* Additional Contact Info */
+  .contact-info {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: black;
+  }
+  
+  .contact-info a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+    color: black;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .contact-container {
+      margin: 20px;
+      padding: 15px;
+    }
+  }
+  
