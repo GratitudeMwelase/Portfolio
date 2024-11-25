@@ -1,14 +1,18 @@
 .index{
-    background-image: url("Wimage.jpg");
+    background-image: url("hpmeImage.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: fixed;
-}
+} 
+ section{
+  max-height: 90vh;
+  padding-top: 10vh;
+ }
 .abt{
     background-color: nude;
 }
 .text{
-  text-align: center;
+ text-align: center;
  padding-top: 44%;
  font-style: italic;
  text-shadow: 0cqb;
@@ -43,6 +47,13 @@ font-size: 30px;
     top: 80px;
     background-color: #555; 
   }
+  .aboutInfo{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
   
   #projects {
     top: 140px;
@@ -54,21 +65,15 @@ font-size: 30px;
     background-color: #555 
   }
 
-  .icon{
-
-    padding-left: 50px ;
-  }
-  .icon1{
-
-    padding-left: 70px ;
+  
  
-  }
-  .abt{
-    background-image:url("imgbc.jpg");
-    background-repeat: no-repeat;
+  
+  .aboutP{
+    background-image: url("aboutMe.jpg");
     background-size: cover;
-    background-position: fixed;
-}
+  }
+
+
   h2{
     padding-top: 100px;
     text-align: center;
@@ -77,15 +82,10 @@ font-size: 30px;
 }
 p{
     padding-top: 80x;
-    text-align: center;
     padding-right: 100px;
     color: black;
 }
-h3{
-    padding-bottom: 100px;
-    text-align: center;
-    
-}
+
 .indexC{
     background-image: url("ContactUs-2024.jpg");
     background-repeat: no-repeat;
@@ -115,13 +115,13 @@ body {
   
   h1 {
     font-size: 2em;
-    margin-bottom: 10px;
+    margin: 0;
+    padding: 0;
     color:black;
   }
   
   p {
     font-size: 1.1em;
-    margin-bottom: 30px;
     color: black;
   }
   
@@ -196,4 +196,84 @@ body {
       padding: 15px;
     }
   }
+  .imagecontainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    color:white
   
+}
+.projectImg {
+   border-radius: 10px;
+    width: 200px;
+    background-color:  rgb(233, 139, 154);  
+    overflow: hidden;
+    
+   
+}
+.projectImg img {
+    max-width: 100%;
+    height: 200px;
+    border-radius: 10px;
+   
+  
+}
+.projectImg:hover {
+
+ transform: scale(1.05);
+}
+.prjct{
+  background-image:url("about2.jpg") ;
+  background-size: cover;
+
+}
+
+.hero{
+  display: flex;
+  gap: 32px;
+  padding-inline: 10%;
+  align-items: center;
+  font-size: 28px ;
+  justify-content: start;
+}
+
+.hero h1,h3{
+  margin-block: 8px;
+
+}
+
+.hero h3{
+  font-size: 18px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #fff;
+  cursor: pointer;
+}
+
+.hero p{
+  padding: 0;
+}
+
+.hleimg{
+  display: flex;
+  width: 33%;
+  
+}
+
+.hleimg img{
+  width: 100%;
+  height: auto;
+  border-radius: 2rem;
+}
+.icon{
+  margin-left: 11px;
+}
