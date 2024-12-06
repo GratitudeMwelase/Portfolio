@@ -48,11 +48,31 @@ font-size: 30px;
     background-color: #555; 
   }
   .aboutInfo{
-    max-width: 800px;
+    max-width: 1200px;
     margin: 50px auto;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #ffffff47;
+  }
+  p{
+    padding-top: 80x;
+    padding-right: 100px;
+    color: black;
+}
+
+  @media(width<=1024px)
+  {
+    .aboutInfo {
+      margin-top:120px ;
+      margin-inline: 20px;
+      
+
+    }
+p{
+  padding-right: 0;
+}
+
   }
   
   #projects {
@@ -71,6 +91,7 @@ font-size: 30px;
   .aboutP{
     background-image: url("aboutMe.jpg");
     background-size: cover;
+    background-attachment: fixed;
   }
 
 
@@ -80,11 +101,7 @@ font-size: 30px;
     font-style: oblique;
    
 }
-p{
-    padding-top: 80x;
-    padding-right: 100px;
-    color: black;
-}
+
 
 .indexC{
     background-image: url("ContactUs-2024.jpg");
@@ -111,8 +128,7 @@ body {
     border-radius: 10px;
     text-align: center;
   }
-  
-  
+ 
   h1 {
     font-size: 2em;
     margin: 0;
@@ -193,7 +209,7 @@ body {
   @media (max-width: 600px) {
     .contact-container {
       margin: 20px;
-      padding: 15px;
+      padding: 32px;
     }
   }
   .imagecontainer {
@@ -252,11 +268,14 @@ body {
 a{
   color: black;
   text-decoration: none;
+  
+  
 }
 
 a:hover{
   color: #fff;
   cursor: pointer;
+ 
 }
 
 .hero p{
@@ -276,4 +295,26 @@ a:hover{
 }
 .icon{
   margin-left: 11px;
+}
+
+@media screen and (max-width: 480px){
+  .hero p{
+    font-size: 16px;
+  }
+
+ 
+
+  .hero h1{
+    font-size: 32px;
+  }
+
+  .hero h3{
+    font-size: 18px;
+  }
+}
+
+@media (width <= 1024px) {
+  .hero{
+    flex-direction: column;
+  }
 }
